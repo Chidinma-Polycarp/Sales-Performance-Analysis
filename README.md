@@ -35,7 +35,7 @@ The dataset was given by the incubator hub and contains 50,000 sales record from
 
 #### METHODOLOGY
 
-The dataset was given in an excel workbook, it was then transferred to a new workbook and then I checked for duplicates. 
+The dataset was given in an excel workbook alongside another dataset, I transferred to a new workbook and then I checked for duplicates. 
 
 I used the **conditional formatting function which is found in the styles group on the Home tab** to check for duplicate values, it highlighted the whole table but to be completely certain, I used the **COUNTIFS** function which also proved to me that i had rows with the same records. 
 
