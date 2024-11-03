@@ -9,13 +9,13 @@ This repository contains a comprehensive sales performance analysis done on a da
 
 [GUIDE](guide)
 
-[DATA FILES](data_files)
+[DATA FILES](data-files)
 
-[EXCEL FILES](excel_files)
+[EXCEL FILES](excel-files)
 
-[SQL QUERIES](sql_queries)
+[SQL QUERIES](sql-queries)
 
-[POWER BI REPORT](power_bi_report)
+[POWER BI REPORT](power-bi-report)
 
 [DOCUMENTATION](documentation)
 
