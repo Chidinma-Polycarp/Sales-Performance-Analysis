@@ -48,6 +48,7 @@ At the end of my excel analysis, I exported my main dataset to another workbook 
 I went further to import my data into my **POWER BI DESKTOP** work space and went ahead to transform my data. At the transform data page, I checked my column quality which was 100%, column distribution which showed that I had no empty rows or columns and column profile which gave a summary of my columns. I went further to add three conditional columns for Product count, Sales Performance Summary and Summary count. I created measures for **Average Order Sales, Revenue and Yearly Sales growth**. At the end of my analysis, I went ahead to create an interactive dashboard of 3pages. The first page showed the Sales Performance Overview, Page 2 showed sales trend and regional sales performsnce, page 3 showed product analysis. 
 
 #### INSIGHTS AND RECOMMENDATION
+The insights gotten at the end of the project, alongsides my brecommendations will be given in details in the [DOCUMENTATION](#documentation)
 
 ### GUIDE
 ---
@@ -60,7 +61,7 @@ I went further to import my data into my **POWER BI DESKTOP** work space and wen
 - Power BI [Install](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
 ### DATA FILES
-This contained the raw uncleaned data that was cleaned and used to perform this analysis.
+This contained the uncleaned dataset that was cleaned and used to perform this analysis.
 [LITA Capstone Dataset.xlsx](https://github.com/user-attachments/files/17610774/LITA.Capstone.Dataset.xlsx)
 
 ### EXCEL FILES
@@ -68,7 +69,13 @@ This contained the raw uncleaned data that was cleaned and used to perform this 
 I have included my excel project file alongside some pictures of my pivot table analysis and my excel worksheet.
 [SALES DATA.xlsx](https://github.com/user-attachments/files/17610787/SALES.DATA.xlsx)
 
-### SQL QUERRIES
+#### EXCEL WORKSHEET SHOWING SOME ANALYSIS CARRIED OUT
+<img width="810" alt="EXCEL SALES DATA" src="https://github.com/user-attachments/assets/77efe17c-31bc-4e7d-a4f6-3100ee256da8">
+
+#### PIVOT TABLE 
+<img width="680" alt="SALES DATA PIVOT TABLE" src="https://github.com/user-attachments/assets/028f54b1-a952-444b-8581-0c10916faa5f">
+
+### SQL QUERIES
 ---
 
 I have included the querries I wrote that helped me to understand my dataset better.
@@ -146,4 +153,29 @@ WHERE OrderDate Between '7/1/2024' and '9/30/2024')
 
 
 
+DOCUMENTATION
+---
 
+**Data Dictionary**
+
+The dataset initially contained 7 columns but for analysis purpose extra 5 columns where added. This columns include;
+
+- **OrderID**: Original column and contained a 4 digit code. It was not used during this analysis as it was not unique to any customer.
+  
+- **Customer ID**: This is an original column that contained a mixture of text and figures, it was used to distinguish the customers and helped to track the customer with the highest purchase.
+  
+- **Product**: It contained the list of products sold at the retail store. The best selling product helped to show the products preferred in a particular region.
+  
+- **Region**: This is also an original column and it contained the region from which the customer was making his purchase from.
+  
+- **OrderDate**: An original Column, showed the date the order was made. It helped to understand the sales trend and track the revenues for the different years and months.
+  
+- **Quantity**: An original column that contained the number of product the customer purchased. It helped to track product perfoemance.
+  
+- **UnitPrice**: An original column showed how much each of the product was sold at.
+  
+- **Sales Price**: A calculated column that was added in excel, it was gotten by multiplying the quantity column by unitPrice. This gave us the basis of our analysis.
+  
+- **Region Count**: A conditional column that was added in excel using the IFS function to make it easier to analyze the region column.
+  
+- 
