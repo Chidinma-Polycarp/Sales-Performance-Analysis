@@ -53,4 +53,9 @@ I went further to import my data into my **POWER BI DESKTOP** work space and wen
 ---
 #### TOOLS NEEDED
 
-- Microsoft excel [Download](
+- Microsoft Excel [Download Here](https://www.microsoft.com/en-us/microsoft-365/excel)
+    
+- SQL - Structured Querry Language for querrying data [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+
+- Power BI [Install](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+
