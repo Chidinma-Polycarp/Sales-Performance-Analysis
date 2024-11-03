@@ -3,21 +3,21 @@ This repository contains a comprehensive sales performance analysis done on a da
 
 
 ## TABLE OF CONTENT
-[INTRODUCTION](introduction)
+[INTRODUCTION](#introduction)
 
-[OVERVIEW](overview)
+[OVERVIEW](#overview)
 
-[GUIDE](guide)
+[GUIDE](#guide)
 
-[DATA FILES](data-files)
+[DATA FILES](#data-files)
 
-[EXCEL FILES](excel-files)
+[EXCEL FILES](#excel-files)
 
-[SQL QUERIES](sql-queries)
+[SQL QUERIES](#sql-queries)
 
-[POWER BI REPORT](power-bi-report)
+[POWER BI REPORT](#power-bi-report)
 
-[DOCUMENTATION](documentation)
+[DOCUMENTATION](#documentation)
 
 
 ### OVERVIEW
