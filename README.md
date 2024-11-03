@@ -41,6 +41,16 @@ I used the **conditional formatting function which is found in the styles group 
 
 I proceeded to remove duplicate by using the **remove duplicate function under the data tools group in the DATA tab**. I was left with 9921 rows which I used to perform my analysis. I ensured that all duplicates had been removed by using the **COUNTIFS** function again and it returned only 1 record for each series of criterias thereby proving that I now had a clean dataset.
 
+I created a column for total sales as my dataset contained only Quantity and Unit price, I went ahead to create a Region Count column using the **IFS** function to make it easier to analyse my data. Other calculations such as the average sales per product, total sales in the regions and the total revenue was carried out. I went ahead to use the **PIVOT TABLE** to summarize my findings. 
 
+At the end of my excel analysis, I exported my main dataset to another workbook which I saved as a CSV file, so that I could import it easily into my **SQL management studio**. At the management studio, I wrote different querries using the SQL OPerators (Logical, comparison and arithmetic). I also utilized the SQL Join to write my querries.
 
+I went further to import my data into my **POWER BI DESKTOP** work space and went ahead to transform my data. At the transform data page, I checked my column quality which was 100%, column distribution which showed that I had no empty rows or columns and column profile which gave a summary of my columns. I went further to add three conditional columns for Product count, Sales Performance Summary and Summary count. I created measures for **Average Order Sales, Revenue and Yearly Sales growth**. At the end of my analysis, I went ahead to create an interactive dashboard of 3pages. The first page showed the Sales Performance Overview, Page 2 showed sales trend and regional sales performsnce, page 3 showed product analysis. 
 
+#### INSIGHTS AND RECOMMENDATION
+
+### GUIDE
+---
+#### TOOLS NEEDED
+
+- Microsoft excel [Download](
