@@ -146,7 +146,8 @@ WHERE OrderDate Between '7/1/2024' and '9/30/2024')
 <img width="610" alt="SALES TREND - PAGE 2" src="https://github.com/user-attachments/assets/ec89ab1e-d81b-467f-b8a2-ebf065409573">
 
 #### PRODUCT ANALYSIS
-<img width="608" alt="PRODUCT ANALYSIS-PAGE 3" src="https://github.com/user-attachments/assets/5f41687d-84bb-459e-9378-a5393e3d2596">
+<img width="710" alt="PRODUCT ANALYSIS-PAGE 3" src="https://github.com/user-attachments/assets/b4cbff4a-46f4-426d-b00d-59cf9e2e3f91">
+
 
 #### MONTHLY SALES TREND
 <img width="408" alt="SUMMARY" src="https://github.com/user-attachments/assets/1091f851-195d-4dc8-8d9d-71ad1a38db28">
