@@ -185,7 +185,7 @@ The dataset initially contained 7 columns but for analysis purpose extra 5 colum
 
 - **Sumary Count**: A conditional column added in the BI workspace, which was used to sort the sales performance column.
 
-In the Power BI workspace, measure where created to help to summarize data and bring out insights. These measures include:
+In the Power BI workspace, measures were created to help to summarize data and bring out insights. These measures include:
 
 - **Revenue**: This was created using the **SUM** function to add the values of the Sales price column and produce the total revenue made for the store. The total revenue gotten is **2,101,090**.
 
