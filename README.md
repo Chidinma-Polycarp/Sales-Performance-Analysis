@@ -171,7 +171,7 @@ DOCUMENTATION
 
 **Data Dictionary**
 
-The dataset initially contained 7 columns but for analysis purpose extra 5 columns where added. This columns include;
+The dataset initially contained 7 columns but for analysis purpose extra 5 columns where added. These columns include;
 
 - **OrderID**: Original column and contained a 4 digit code. It was not used during this analysis as it was not unique to any customer.
   
