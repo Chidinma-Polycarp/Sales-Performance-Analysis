@@ -25,7 +25,7 @@ This project analyzes sales data to uncover key insights such as top-selling pro
 
 #### KEY FEATURES
 
-- Sales Performance Metrics (Revenue, Sales Growth, Average Order Revenue)
+- Sales Performance Metrics (Revenue, Sales Growth)
 - Sales Channel Analysis (Product, Region)
 
 #### DATA SET 
@@ -47,6 +47,16 @@ At the end of my excel analysis, I exported my main dataset to another workbook 
 I went further to import my data into my **POWER BI DESKTOP** work space and went ahead to transform my data. At the transform data page, I checked my column quality which was 100%, column distribution which showed that I had no empty rows or columns and column profile which gave a summary of my columns. I went further to add three conditional columns for Product count, Sales Performance Summary and Summary count. I created measures for **Average Order Sales, Revenue and Yearly Sales growth**. At the end of my analysis, I went ahead to create an interactive dashboard of 3pages. The first page showed the Sales Performance Overview, Page 2 showed sales trend and regional sales performsnce, page 3 showed product analysis. 
 
 #### INSIGHTS AND RECOMMENDATION
+
+**Key Insights**
+- South region generated the highest revenue, **44%** of the total revenue was generated in the South.
+  
+- Shoes are the top performing products by sales but second by quantity sold.
+
+- The highest revenue was generated in Feburary 2024.
+
+- The western region had the highest number of poor sales ie sales <20.
+
 The insights gotten at the end of the project, alongsides my recommendations will be given in details in the [DOCUMENTATION](#documentation) section.
 
 ### GUIDE
@@ -141,7 +151,8 @@ WHERE OrderDate Between '7/1/2024' and '9/30/2024')
 ---
 
 #### OVERVIEW
-<img width="771" alt="Overview - Page 1" src="https://github.com/user-attachments/assets/43690f38-0712-4522-b7db-d39e05ce914b">
+<img width="611" alt="Overview - Page 1" src="https://github.com/user-attachments/assets/62e0e66e-33ec-4f26-8ec2-0ab44847c111">
+
 
 #### SALES TREND AND REGIONAL PERFORMANCE
 <img width="610" alt="SALES TREND - PAGE 2" src="https://github.com/user-attachments/assets/ec89ab1e-d81b-467f-b8a2-ebf065409573">
@@ -192,18 +203,18 @@ In the Power BI workspace, measures were created to help to summarize data and b
 
 - **Average Order Sales**: This was created using the **AVERAGE** function. This found the average of the sales made per order from the sales price column. The average order sales is **211.78** and it was the basis of our sales performance summary as sales below the average was considered as poor or fair depending on tnhe value.
 
-- **Sales Growth YOY**: This was done by using a combination of the **SUM, DIVIDE and CALCULATE** functions. The formula returned **2.68** as the sales growth value which indicated that revenue increased over the year.
+- **Sales For Previous Year**: This measure was created with the **CALCULATE and SAMEPERIODLASTYEAR** function. It was used to calculate the sales growth.
+
+- **Sales Growth YOY**: This was done by using a combination of the **SUM, DIVIDE and CALCULATE** functions. The formula returned **0.02%** as the sales growth value which indicated that revenue did not increase over the year.
 
 #### INSIGHTS AND RECOMMENDATION
 
 - **SALES PERFORMANCE**
+The sales growth Year over year was 0.02% which showed that there was no increase in revenue for the next year, although it is very important to note that the last sales record made was on the 31st August 2024 and the total revenue as at then was 995,760.
   
 - **SALES TREND**
 
 The sales trend chat showed that the highest revenue was gotten in Feburary 2024, the revenue was 298,800 which contributed 14% of the total revenue. It also showed that in April 2023, the revenue made was 7,425 and this is less than 1% of the total revenue, April 2023 had the lowest revenue. On further analysis, it was shown that the product bought in April was socks which is the second lowest performing product. In Feburary, the most purchased product was shoes which is the best performing product by quantity. This accounted for the high revenue generated in Feburary.
-
-**RECOMMENDATION**
-In other to boost sales in april, the stores can bring out Easter related packages that would attract more customers. Seasonal sales packages should also be encouraged.
 
 - **PRODUCT ANALYSIS**
 
@@ -226,3 +237,6 @@ Page 3 of my Power BI dashboard shows the product performance in various regions
 **NORTH**: This region generated **387,000** in revenue. The most popular products sold here was shirts (992) and jackets (993).
 
 **WEST**: This is the least performing region, contributing only **14%** of the total revenue. The sales performance showed that there was no sale above 400 in this region. This was the only region that recorded sales <20. The Poor sales accounted for **20%** of their total sales. The most sold product in the western region was Socks, **67%** of the total quantity of socks sold were purchaased in this region.
+
+**RECOMMENDATION**
+In other to boost sales in april, the stores can consider introducing festive (Easter) packages that would attract more customers. Seasonal sales packages should also be encouraged.
