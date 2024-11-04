@@ -196,14 +196,16 @@ In the Power BI workspace, measures were created to help to summarize data and b
 
 #### INSIGHTS AND RECOMMENDATION
 
--**SALES TREND**
+- **SALES PERFORMANCE**
+  
+- **SALES TREND**
 
 The sales trend chat showed that the highest revenue was gotten in Feburary 2024, the revenue was 298,800 which contributed 14% of the total revenue. It also showed that in April 2023, the revenue made was 7,425 and this is less than 1% of the total revenue, April 2023 had the lowest revenue. On further analysis, it was shown that the product bought in April was socks which is the second lowest performing product. In Feburary, the most purchased product was shoes which is the best performing product by quantity. This accounted for the high revenue generated in Feburary.
 
 **RECOMMENDATION**
 In other to boost sales in april, the stores can bring out Easter related packages that would attract more customers. Seasonal sales packages should also be encouraged.
 
--**PRODUCT ANALYSIS**
+- **PRODUCT ANALYSIS**
 
 Page 3 of my Power BI dashboard shows the product performance in various regions, and the best performing products.
 
@@ -215,7 +217,7 @@ Page 3 of my Power BI dashboard shows the product performance in various regions
 
 **GLOVES, Jacket and  SOCKS**: They are the least performing products. Together they make up only **33%** of the total revenue. 
 
--**REGION PERFORMANCE**
+- **REGION PERFORMANCE**
 
 **SOUTH**: This is the top region by total revenue. It generated a total revenue of **927,820** which makes up **44%** of the total revenue generated. The sales summary showed that no sales <20 was made, most sales were >200. The most popular product in the south was Shoes, followed by gloves and then socks. A total of **2,480** products were sold. Hats, jackets and shirts were not sold in this region. Page 2 and 3 of my BI report gives insight on this region.
 
