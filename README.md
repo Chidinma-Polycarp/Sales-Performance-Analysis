@@ -23,7 +23,7 @@ This repository contains a comprehensive sales performance analysis done on a da
 ---
 This project analyzes sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. The project uses Excel, SQL and Power BI to analyze a 50,000 sales record for a retail shop. 
 
-#### KEY FEATURES
+  **KEY FEATURES**
 
 - Sales Performance Metrics (Revenue, Sales Growth)
 - Sales Channel Analysis (Product, Region)
@@ -32,7 +32,7 @@ This project analyzes sales data to uncover key insights such as top-selling pro
 
 The dataset was given by the incubator hub and contains 50,000 sales record from the past year.
 
-#### METHODOLOGY
+ **METHODOLOGY**
 
 The dataset was given in an excel workbook alongside another dataset, I transferred to a new workbook and then I checked for duplicates. 
 
@@ -61,7 +61,7 @@ The insights gotten at the end of the project, alongsides my recommendations wil
 
 ### GUIDE
 ---
-#### TOOLS NEEDED
+**TOOLS NEEDED**
 
 - Microsoft Excel [Download Here](https://www.microsoft.com/en-us/microsoft-365/excel)
     
