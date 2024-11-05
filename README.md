@@ -55,7 +55,7 @@ I went further to import my data into my **POWER BI DESKTOP** work space and wen
 
 - The highest revenue was generated in Feburary 2024.
 
-- The western region had the highest number of poor sales ie sales <20.
+- The western region had the highest number of poor sales ie sales <₦20.
 
 The insights gotten at the end of the project, alongsides my recommendations will be given in details in the [DOCUMENTATION](#documentation) section.
 
@@ -193,15 +193,15 @@ The dataset initially contained 7 columns but for analysis purpose extra 5 colum
   
 - **Product Count**: A conditional column added in the power BI transform page which was used to sort the product column.
 
-- **Sales Performance**: A conditional column which was also added in power BI and was used to summarize the revenue gotten from each region, product and customers. The column contained four categories; **Poor, Fair, Good and Excellent**. The average order value is 211.78 which helped to determine the range for the sales performance grading. All sales **< 20** was summarized as **Poor**, while sales **>20 but <200** was summarized as **Fair**, Sales **>200 but <400** was summarized as **GOOD** and finally sales **>400** was summarized as **Excellent**
+- **Sales Performance**: A conditional column which was also added in power BI and was used to summarize the revenue gotten from each region, product and customers. The column contained four categories; **Poor, Fair, Good and Excellent**. The average order value is 211.78 which helped to determine the range for the sales performance grading. All sales **< ₦20** was summarized as **Poor**, while sales **>₦20 but <₦200** was summarized as **Fair**, Sales **>₦200 but <₦400** was summarized as **GOOD** and finally sales **>₦400** was summarized as **Excellent**
 
 - **Sumary Count**: A conditional column added in the BI workspace, which was used to sort the sales performance column.
 
 In the Power BI workspace, measures were created to help to summarize data and bring out insights. These measures include:
 
-- **Revenue**: This was created using the **SUM** function to add the values of the Sales price column and produce the total revenue made for the store. The total revenue gotten is **2,101,090**.
+- **Revenue**: This was created using the **SUM** function to add the values of the Sales price column and produce the total revenue made for the store. The total revenue gotten is **₦2,101,090**.
 
-- **Average Order Sales**: This was created using the **AVERAGE** function. This found the average of the sales made per order from the sales price column. The average order sales is **211.78** and it was the basis of our sales performance summary as sales below the average was considered as poor or fair depending on tnhe value.
+- **Average Order Sales**: This was created using the **AVERAGE** function. This found the average of the sales made per order from the sales price column. The average order sales is **₦211.78** and it was the basis of our sales performance summary as sales below the average was considered as poor or fair depending on tnhe value.
 
 - **Sales For Previous Year**: This measure was created with the **CALCULATE and SAMEPERIODLASTYEAR** function. It was used to calculate the sales growth.
 
@@ -210,31 +210,31 @@ In the Power BI workspace, measures were created to help to summarize data and b
 #### INSIGHTS AND RECOMMENDATION
 
 - **SALES PERFORMANCE**
-The sales growth Year over year was 0.02% which showed that there was no increase in revenue for the next year, although it is very important to note that the last sales record made was on the 31st August 2024 and the total revenue as at then was 995,760.
+The sales growth Year over year was 0.02% which showed that there was no increase in revenue for the next year, although it is very important to note that the last sales record made was on the 31st August 2024 and the total revenue as at then was ₦995,760.
   
 - **SALES TREND**
 
-The sales trend chat showed that the highest revenue was gotten in Feburary 2024, the revenue was 298,800 which contributed 14% of the total revenue. It also showed that in April 2023, the revenue made was 7,425 and this is less than 1% of the total revenue, April 2023 had the lowest revenue. On further analysis, it was shown that the product bought in April was socks which is the second lowest performing product. In Feburary, the most purchased product was shoes which is the best performing product by quantity. This accounted for the high revenue generated in Feburary.
+The sales trend chat showed that the highest revenue was gotten in Feburary 2024, the revenue was ₦298,800 which contributed 14% of the total revenue. It also showed that in April 2023, the revenue made was ₦7,425 and this is less than 1% of the total revenue, April 2023 had the lowest revenue. On further analysis, it was shown that the product bought in April was socks which is the second lowest performing product. In Feburary, the most purchased product was shoes which is the best performing product by quantity. This accounted for the high revenue generated in Feburary.
 
 - **PRODUCT ANALYSIS**
 
 Page 3 of my Power BI dashboard shows the product performance in various regions, and the best performing products.
 
-**HAT**: The best performing product by quantity is Hats, a total of **1,991** hats were sold. This generated a revenue of **316,195** which makes up 15% of the total revenue. Although hats are the best selling items by quantity it is the third performing product by sales. 
+**HAT**: The best performing product by quantity is Hats, a total of **1,991** hats were sold. This generated a revenue of **₦316,195** which makes up 15% of the total revenue. Although hats are the best selling items by quantity it is the third performing product by sales. 
 
-**SHOES**: This is the top performing product by sales accounting for **29%** of the total revenue. **1,987** pairs of shoes where sold generating a revenue of **613,380**. It was only in the North region that shoes where not sold at all. The south region bought the most pairs of shoes, they bought 993 pairs which is 50% of the total quantity sold.
+**SHOES**: This is the top performing product by sales accounting for **29%** of the total revenue. **1,987** pairs of shoes where sold generating a revenue of **₦613,380**. It was only in the North region that shoes where not sold at all. The south region bought the most pairs of shoes, they bought 993 pairs which is 50% of the total quantity sold.
 
-**SHIRT**: This is the second best performing product by sales and the third best by quantity. **1,487** shirts were sold in total, only two regions bought shirts (North and East) with the north buying the bulk of it (67%). The sales of shirt generated a revenue of **485,600** which makes up **23%** of the total revenue.
+**SHIRT**: This is the second best performing product by sales and the third best by quantity. **1,487** shirts were sold in total, only two regions bought shirts (North and East) with the north buying the bulk of it (67%). The sales of shirt generated a revenue of **₦485,600** which makes up **23%** of the total revenue.
 
 **GLOVES, Jacket and  SOCKS**: They are the least performing products. Together they make up only **33%** of the total revenue. 
 
 - **REGION PERFORMANCE**
 
-**SOUTH**: This is the top region by total revenue. It generated a total revenue of **927,820** which makes up **44%** of the total revenue generated. The sales summary showed that no sales <20 was made, most sales were >200. The most popular product in the south was Shoes, followed by gloves and then socks. A total of **2,480** products were sold. Hats, jackets and shirts were not sold in this region. Page 2 and 3 of my BI report gives insight on this region.
+**SOUTH**: This is the top region by total revenue. It generated a total revenue of **₦927,820** which makes up **44%** of the total revenue generated. The sales summary showed that no sales <20 was made, most sales were >200. The most popular product in the south was Shoes, followed by gloves and then socks. A total of **2,480** products were sold. Hats, jackets and shirts were not sold in this region. Page 2 and 3 of my BI report gives insight on this region.
 
-**EAST**: This is the second best region by total revenue. It generated a total revenue of **485,925** which makes up **23%** of the total revenue. The sales summary showed that **60%** of the sales in this region was >20 but <400. A total of **2483** products were sold with **Hats** being the most sold product. 
+**EAST**: This is the second best region by total revenue. It generated a total revenue of **₦485,925** which makes up **23%** of the total revenue. The sales summary showed that **60%** of the sales in this region was >20 but <400. A total of **2483** products were sold with **Hats** being the most sold product. 
 
-**NORTH**: This region generated **387,000** in revenue. The most popular products sold here was shirts (992) and jackets (993).
+**NORTH**: This region generated **₦387,000** in revenue. The most popular products sold here was shirts (992) and jackets (993).
 
 **WEST**: This is the least performing region, contributing only **14%** of the total revenue. The sales performance showed that there was no sale above 400 in this region. This was the only region that recorded sales <20. The Poor sales accounted for **20%** of their total sales. The most sold product in the western region was Socks, **67%** of the total quantity of socks sold were purchaased in this region.
 
